@@ -2,3 +2,19 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  /* Переменные тёмной темы */
+  --accent-color: #ff0070;
+  --font-family: "IBM Plex Mono", monospace;
+  --nav-color: #ff0070;
+  --title-color: #DB00FF;
+  --title-shadow: #FF0070;
+  --record-color: #FF0070;
+  --article-title: #000028;
+  --title-decor: #FF0070;
+  --title-section: #FF0070;
+  --text-section: #F1B2CE;
+  --border-link: #353430;
+  --bg-image: url(../images/cover-image-dark.png);
+}

@@ -9,4 +9,62 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --accent-color: #ff0070;
+  --nav-color: #353430;
+  --title-color: #FFC2E6;
+  --title-shadow: #FF0070;
+  --record-color: transparent;
+  --article-title: #353430;
+  --title-decor: #FF8DCB;
+  --title-section: #353430;
+  --text-section: #353430;
+  --border-link: #353430;
+  --bg-image: url(../images/cover-image-light.png);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #ff0070;
+    --nav-color: #353430;
+    --title-color: #FFC2E6;
+    --title-shadow: #FF0070;
+    --record-color: transparent;
+    --article-title: #353430;
+    --title-decor: #FF8DCB;
+    --title-section: #353430;
+    --text-section: #353430;
+    --border-link: #353430;
+    --bg-image: url(../images/cover-image-light.png);
+    }
+  .header_rec {
+    display: none;
+  }
+}
+
+.theme_light .header_rec {
+  display: none;
+}
+
+@media (width >= 375px) {
+  .page.theme_light {
+    --title-shadow: #ff8dcb;
+  }
+}
+
+@media (prefers-color-scheme: light) and (width >= 375px) {
+  :root {
+    --title-shadow: #ff8dcb;
+  }
+}
+
+@media (width >= 875px) {
+  .page.theme_light {
+    --title-shadow: #ff0070;
+  }
+}
+
+@media (prefers-color-scheme: light) and (width >= 875px) {
+  :root {
+    --title-shadow: #ff0070;
+  }
 }
