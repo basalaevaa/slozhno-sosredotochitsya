@@ -1,1 +1,1 @@
-https://github.com/basalaevaa/slozhno-sosredotochitsya.git
+https://github.com/basalaevaa/slozhno-sosredotochitsya
