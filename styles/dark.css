@@ -17,6 +17,7 @@
   --title-section: #FF0070;
   --text-section: #F1B2CE;
   --border-link: #353430;
+  --theme-hover: rgba(255, 0, 112, 0.40);
   --font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --bg-color:#000028;
@@ -37,6 +38,7 @@
     --title-section: #FF0070;
     --text-section: #F1B2CE;
     --border-link: #353430;
+    --theme-hover: rgba(255, 0, 112, 0.40);
     --font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     --bg-color:#000028;

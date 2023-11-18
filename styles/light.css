@@ -22,6 +22,7 @@
   --text-section: #353430;
   --border-link: #353430;
   --bg-color: #FFF1F7;
+  --theme-hover: rgba(50, 49, 45, 0.40);
   --bg-image: url(../images/cover-image-light.png);
 }
 
@@ -40,6 +41,7 @@
     --text-section: #353430;
     --border-link: #353430;
     --bg-color: #FFF1F7;
+    --theme-hover: rgba(50, 49, 45, 0.40);
     --bg-image: url(../images/cover-image-light.png);
     }
   .header_rec {

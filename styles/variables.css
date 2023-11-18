@@ -20,5 +20,6 @@
   --text-section: #F1B2CE;
   --border-link: #353430;
   --bg-color: #000028;
+  --theme-hover: rgba(255, 0, 112, 0.40);
   --bg-image: url(../images/cover-image-dark.png);
 }
