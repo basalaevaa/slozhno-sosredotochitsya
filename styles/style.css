@@ -219,7 +219,7 @@
 .better-concentration_section {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 20px;
+  gap: 12px;
   height: 100%;
   margin-block-start: 80px;
 }
@@ -308,6 +308,9 @@
     grid-template-columns: auto;
     margin-block-start: 0px;
   }
+  .better-concentration_section {
+    gap: 20px;
+  }
   .concentration_section {
     gap: 20px;
   }
@@ -325,7 +328,8 @@
   }
 
   .header_rec {
-    inset-block-start: 10px;
+    top: 10px;
+    right: 39px;
   }
 
   .header_title {
